@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio - Abdelilah Abdi</title>
+  <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+  
+
+  <header>
+  <nav class="navbar">
+    
+    
+
+
+    <!-- bouton burger -->
+    <div class="burger" id="burger">
+      <div></div>
+      <div></div>
+      <div></div>
+    </div>
+               <!-- liens du menu -->
+    <ul class="nav-links" id="nav-links">
+      <li><a href="#accueil"> accueil </a></li>
+      <li><a href="#propos"> À propos</a></li>
+      <li><a href="#projet1"> projet</a></li>
+      <li><a href="#contact1"> contact </a></li>
+    </ul>
+  </nav>
+</header>
+
+
+  <!-- ======================= accueil ===================== -->
+  <section id="accueil" class="hero">
+
+    <img src="image/photo.JPG" alt="photo de profil" class="capture">
+    <h1>Abdelilah Abdi</h1>
+    <h2>Développeur Full Stack | Designer UI/UX </h2>
+    <p>Étudiant passionné par le développement web et la création d'expériences utilisateur exceptionnelles</p>
+
+    <div class="buttons">
+      
+      <a href="mailto:abdelilahabdi6633@gmail.com" target="_blank">✉ Email</a>
+      <a href="#">🔗 LinkedIn</a>
+      <a href="https://github.com/abdelilahabdi" target="_blank">💻 GitHub</a>
+      
+    </div>
+  </section>
+  <!--================== propos ============= -->
+
+  <div id="propos" class="about">
+    <div class="conteneur">
+
+      <div class="left">
+        <h2>À propos de moi</h2>
+        <p>Je m'appelle <strong>Abdelilah Abdi</strong>, Développeur front-end passionné avec une forte attention aux
+          détails et à l’expérience utilisateur. </p>
+        <p>J'aime transformer des designs créatifs en sites web interactifs et performants.</p>
+        <p>Actuellement à la recherche de nouvelles opportunités pour mettre mes compétences au service de projets
+          innovants et contribuer à des équipes dynamiques.</p>
+      </div>
+
+      <div class="right">
+        <h2 class="Competence">Compétences</h2>
+
+        <div class="skill">
+          <label>C++ / C <span>40%</span></label>
+          <div class="bar">
+            <div class="progress" style="width:40%"></div>
+          </div>
+        </div>
+
+        <div class="skill">
+          <label>Html / Css <span>30%</span></label>
+          <div class="bar">
+            <div class="progress" style="width:30%"></div>
+          </div>
+        </div>
+
+        <div class="skill">
+          <label>Git / GitHub <span>50%</span></label>
+          <div class="bar">
+            <div class="progress" style="width:50%"></div>
+          </div>
+        </div>
+
+        <div class="skill">
+          <label>Time Management <span>70%</span></label>
+          <div class="bar">
+            <div class="progress" style="width:70%"></div>
+          </div>
+        </div>
+
+        <div class="skill">
+          <label>Communication <span>80%</span></label>
+          <div class="bar">
+            <div class="progress" style="width:80%"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  </section>
+
+   <!--================== projet ============= -->
+
+
+
+
+
+  <section  id="projet1"  class="projet">
+    <div class="container">
+      <h2>Mes Projets</h2>
+      <div class="project-card">
+        <div class="project-content">
+          <div class="right">
+        <h2 class="Competence">Campus Connect</h2>
+         
+           
+          
+          <div class="text">
+            <h3>Intégration de votre portfolio HTML/CSS depuis une maquette Figma</h3>
+            <p>
+              Le projet CampusConnect vise à transformer un site web existant en une
+              version multi-pages afin d'améliorer la navigation et la clarté des
+              informations. L’objectif principal est d’offrir aux visiteurs une
+              expérience utilisateur plus fluide et agréable. Le site met en avant les
+              informations clé de l’école, notamment ses formations, ses événements et
+              ses coordonnées de contact.
+            </p>
+          </div>
+        </div>
+
+        <div class="icons">
+          <button><a href="https://github.com/abdelilahabdi/Campus_Connect" target="_blank">HTML</a></button>
+          <button><a href="https://github.com/abdelilahabdi/Campus_Connect/blob/main/style.css" target="_blank">CSS</a></button>
+          <button><a href="https://github.com/abdelilahabdi" target="_blank">GitHub</a></button>   
+          
+
+
+          
+          
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+
+     <!--================== contact ============= -->
+     
+    <section class="contact-section" id="contact1" >
+    <h2>Contactez-moi</h2>
+    <div class="underline"></div>
+    <p class="intro">
+      Restons en contact ! Je suis disponible pour échanger à propos de vos projets, collaborations potentielles ou
+      toute discussion constructive.
+    </p>
+
+    <div class="contact-container">
+      <div class="contact-info">
+        <p><strong>Email</strong><br><a href="mailto:contact@example.com">contact@example.com</a></p>
+        <p><strong>Téléphone</strong><br>+2126985874</p>
+        <p><strong>Localisation</strong><br>Nador, Maroc</p>
+      </div>
+
+      <div class="contact-form">
+        <h3>Envoyez-moi un message</h3>
+        <p>Remplissez le formulaire ci-dessous et je vous répondrai rapidement.</p>
+
+        <form>
+          <label for="nom">Nom</label>
+          <input type="text" id="nom" placeholder="votre nom ..." required>
+
+          <label for="email">Email</label>
+          <input type="email" id="email" placeholder="votre.email@example.com ..." required>
+
+          <label for="message">Message</label>
+          <textarea id="message" rows="4" placeholder="votre message ..." required></textarea>
+
+          <button type="submit">Envoyer le message</button>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <p>© 2025 <strong>Abdelilah Abdi</strong>. Tous droits réservés.</p>
+    <p>Fait avec <span class="heart">💚</span> et <strong>Youdev</strong></p>
+  </footer>
+
+
+
+<!-- ==================== burger menu  ==================== -->
+    <script>
+  const burger = document.getElementById("burger");
+  const navLinks = document.getElementById("nav-links");
+
+  burger.addEventListener("click", () => {
+    burger.classList.toggle("active");
+    navLinks.classList.toggle("active");
+  });
+</script>
+
+</body>
+
+</html>
+
+</body>
+
+</html>
+
+</body>
+
+</html>
+
+
+
+
+
